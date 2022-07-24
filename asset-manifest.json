@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Tech-Company/static/css/main.68538eab.css",
+    "main.js": "/Tech-Company/static/js/main.55343711.js",
+    "static/media/news.jpg": "/Tech-Company/static/media/news.2d6af0b63521e68ac7e0.jpg",
+    "index.html": "/Tech-Company/index.html",
+    "main.68538eab.css.map": "/Tech-Company/static/css/main.68538eab.css.map",
+    "main.55343711.js.map": "/Tech-Company/static/js/main.55343711.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.68538eab.css",
+    "static/js/main.55343711.js"
+  ]
+}
