@@ -43,15 +43,15 @@ export default class App extends Component {
         <Navbar />
 
         <Routes>
-          <Route path='' element={<TechNews techNews={this.state.TechArticles} />}/>
-          <Route path='technews' element={<TechNews techNews={this.state.TechArticles} />}/>
-          <Route path='about' element={<About />} >
+          <Route path='Tech-Company' element={<TechNews techNews={this.state.TechArticles} />}/>
+          <Route path='Tech-Company/technews' element={<TechNews techNews={this.state.TechArticles} />}/>
+          <Route path='Tech-Company/about' element={<About />} >
             <Route path='' element={<Personal />} />
             <Route path='personal' element={<Personal />} />
             <Route path='contact' element={<Contact />} />
             <Route path='brief' element={<Brief />} />
           </Route>
-          <Route path='parent' element={<Parent />}/>
+          <Route path='Tech-Company/parent' element={<Parent />}/>
           <Route path='*' element={<>
           <div className='allheight d-flex align-items-center justify-content-center'>
             <h2>404</h2>
@@ -61,7 +61,7 @@ export default class App extends Component {
 
         </Routes>
         
-        <a href='#' className='upBtn bg-primary'> <i className="fa-solid fa-arrow-up" ></i> </a>
+        <a href='#' className='upBtn bg-primary rounded'> <i className="fa-solid fa-arrow-up" ></i> </a>
       </div>
     )
   }
