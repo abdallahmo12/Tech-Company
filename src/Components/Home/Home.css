@@ -1,0 +1,14 @@
+.direction{
+    direction: rtl;
+}
+.text-d-none{
+    text-decoration: none;
+}
+@media screen and (max-width : 768px){
+    .f-225{
+        font-size: 0.25rem;
+    }
+}
+.hheight{
+    height: calc(100vh - 250px);
+}
